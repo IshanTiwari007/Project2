@@ -9,8 +9,33 @@
 </head>
 <body>
     <section>
-        <div class="imgBx"></div>
-        <div class="contentBx"></div>
+        <div class="imgBx">
+            <img src="{{asset('/img/backg.jpg')}}">
+        </div>
+        <div class="contentBx">
+            <div class="formBX">
+                <h2>Login</h2>
+                <form>
+                    <div class="inputBx">
+                        <span>Username</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="inputBx">
+                        <span>Password</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="remember">
+                        <label for=""><input type="checkbox" name="" id=""> Remember me</label>
+                    </div>
+                    <div class="inputBx">
+                        <input type="Submit" value = "Sign in" name="">
+                    </div>
+                    <div class="inputBx">
+                        <p>Don't have an account ? <a href="#">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 </html>
